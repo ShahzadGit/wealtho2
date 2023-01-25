@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Solutions-WeatherO2</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header id="navbar">
+        <nav class="navbar navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#banner">
+                    <img src="images/LOGO.png" class="img-fluid">
+                </a>
+
+                <div class="d-flex justify-content-end">
+                    <div class=" d-none d-md-block d-lg-block btn-conversation">
+                        <!-- <button type="button" class="btn btn-outline-primary me-5" type="button">Start a
+                            conversation <i class="bi bi-arrow-right"></i></button> -->
+
+                        <a class="btn btn-primary btn-outline-primary me-md-5" role="button" aria-disabled="true">Start
+                            a
+                            conversation <i class="bi bi-arrow-right"></i></a>
+
+                    </div>
+                    <div class="btn-menu">
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="images/menu.png" class="img-fluid ">
+                        </button> -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="images/menu.png" class="img-fluid ">
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="offcanvas offcanvas-start" id="demo">
+                    <div class="row" id="demo-row1">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-primary btn-outline-primary me-5" role="button"
+                                    aria-disabled="true">Start
+                                    a
+                                    conversation <i class="bi bi-arrow-right"></i></a>
+                                <a class="btn btn-primary btn-outline-primary me-5" role="button" aria-disabled="true">
+                                    Search <i class="bi bi-arrow-right"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row" id="demo-row2">
+                        <div class="col-md-1" id="demo-row2-col1">
+                            <button type="button" class="btn btn-outline-none" data-bs-dismiss="offcanvas">X</button>
+                        </div>
+                        <div class="col-md-11" id="demo-row2-col2">
+                            <div class="offcanvas-header">
+                                <h1 class="offcanvas-title display-6">Menu</h1>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav m-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">I want to...</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#product">Latest News</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#social">Book a demo</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="demo-row3">
+                        <div class="col-md-12 d-flex justify-content-end">
+                            <img src="images/LOGO-White.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                </div> -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- Prosper -->
+    <section id="prosper">
+        <div class="container-fluid text-left" id="prosper-container">
+            <h1 class="display-3">
+                Prosper
+            </h1>
+
+            <h3 class="display-6">
+                I want to increase the profitability of my business
+            </h3>
+
+        </div>
+
+    </section>
+
+    <!-- deliver -->
+    <section id="deliver">
+        <div class="container-fluid text-left" id="deliver-container">
+            <h3>How we deliver this togater</h3>
+            <ul>
+                <li>Increase efficiency and lower administrative hours of work.</li>
+                <li>The reduced overall cost of advice is shared with clients.</li>
+                <li>Restructure fees for those providing Portfolio management services.</li>
+                <li>Some restructure such that Advice is separate to Investment management.</li>
+                <li>Utilisation of managed accounts to gain efficiencies whilst still providing value in BID.</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- banner2 -->
+    <section id="banner2">
+        <div class="container-fluid" id="banner2-container">
+            <div class="row" id="banner2-row">
+                <div class="col-md-6 m-auto pb-4" id="banner2-col">
+                    <h1 class="display-5">
+                        Client success story
+                    </h1>
+                    <!-- Carousel Start -->
+                    <div id="carouselExampleLight" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <!-- <h1>What our clients say....</h1> -->
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleLight" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carouselExampleLight" data-bs-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <p>"Practice increses revenue by 32% and client pays on average 16% less"</p>
+
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <p>"Practice increses revenue by 32% and client pays on average 16% less"</p>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <p>"Practice increses revenue by 32% and client pays on average 16% less"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carisel End -->
+
+                </div>
+
+                <div class="col-md-6" id="banner2-col2">
+                    <img class="img-fluid" src="images/water.jpg" alt="water-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges -->
+    <section id="challenges">
+        <div class="container-fluid text-left" id="challenges-container">
+            <div class="row">
+                <div class="col-md-6" id="challenges-col1">
+                    <h1 class="display-5">
+                        Lorem ipsum
+                    </h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        <strong>ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong>
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum. <strong>Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem</strong> accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                    <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione <strong>voluptatem sequi nesciunt.</strong> Neque
+                        porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                        non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
+                </div>
+
+                <div class="col-md-6" id="challenges-col2">
+                    <div class="list-wrapper">
+
+                        <div class="grey-line"></div>
+                        <div class="list-item-wrapper">
+                            <div class="list-bullet"></div>
+                            <div class="list-item">
+                                <div class="list-title"><h3 class="display-6">The Challenges</h3></div>
+                                <div class="list-text">
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    </ul>
+                                </div>
+                                <a class="btn btn-primary btn-outline-primary me-md-5" role="button"
+                                    aria-disabled="true">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="list-item-wrapper">
+                            <div class="list-bullet"></div>
+                            <div class="list-item">
+                                <div class="list-title"><h3 class="display-6">Solutions</h3></div>
+                                <div class="list-text">
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor
+                                            sit amet, consectetur adipisicing elit.</li>
+                                    </ul>
+                                </div>
+                                <a class="btn btn-primary btn-outline-primary me-md-5" role="button"
+                                    aria-disabled="true">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="list-item-wrapper">
+                            <div class="list-bullet"></div>
+                            <div class="list-item">
+                                <div class="list-title"><h3 class="display-6">Outcome</h3></div>
+                                <div class="list-text">
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    </ul>
+                                </div>
+                                <a class="btn btn-primary btn-outline-primary me-md-5" role="button"
+                                    aria-disabled="true">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <div class="white-line"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials">
+        <div class="container-fluid position-relative" id="testimonials-container">
+            <img src="images/q1.png" class="img-fluid position-absolute top-0 start-0" alt="q1">
+
+            <!-- Carousel Start -->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <h1>What our clients say....</h1>
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <p class="testimonial">WealthO2 Super Simplifier managed account service is market leading and
+                            innovative and makes managed accounts more accessible at a lower cost</p>
+                        <p class="overview"><b>EFS Michael Rees-Evans<br />(MDA, managed accounts, Super Simplifier)</b>
+                        </p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <p class="testimonial">WealthO2 Super Simplifier managed account service is market leading and
+                            innovative and makes managed accounts more accessible at a lower cost</p>
+                        <p class="overview"><b>EFS Michael Rees-Evans<br />(MDA, managed accounts, Super Simplifier)</b>
+                        </p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <p class="testimonial">WealthO2 Super Simplifier managed account service is market leading and
+                            innovative and makes managed accounts more accessible at a lower cost</p>
+                        <p class="overview"><b>EFS Michael Rees-Evans<br />(MDA, managed accounts, Super Simplifier)</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carisel End -->
+            <img src="images/q2.png" class="img-fluid position-absolute bottom-0 end-0" alt="q2">
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid" id="footer-container">
+            <div class="row" id="footer-row1">
+                <div class="col-md-12" id="footer-row1-col1">
+                    <h1 class="display-5">Let's start a conversation</h1>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>I would like to talk about...</option>
+                        <option value="1" style="color: black;">One</option>
+                        <option value="2" style="color: black;">Two</option>
+                        <option value="3" style="color: black;">Three</option>
+                    </select>
+                    <button type="button" class="btn btn-outline-none" type="button">Next <i
+                            class="bi bi-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="row" id="footer-row2">
+                <div class="col-md-3 col-sm-12" id="footer-row2-col1">
+                    <img src="images/LOGO.png" class="img-fluid mx-auto d-block" alt="Logo">
+                </div>
+
+                <div class="col-md-8 col-sm-12" id="footer-row2-col2">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#solutions">Solutions</a></li>
+                        <li><a href="#news">News and Insights</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                    <p>Level 7, 157 Walker Street North Sydney NSW 2060 Australia<br /> P O Box 509, North Sydney NSW,
+                        2059</p>
+                    <br />
+                    <p>Phone: 1300 726 008 Email: General Enquiries ABN: 93 603 824 835</p>
+                </div>
+                <div class="col-md-1 col-sm-12" id="footer-row2-col3">
+                    <img src="images/in.png" class="img-fluid" alt="LinkdIn">
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
